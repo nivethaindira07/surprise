@@ -258,6 +258,8 @@ button:hover{
 .photo-side{
   z-index: 1;
   padding:10px 0;
+    width:100%;
+    height:100%;
 }
 
 .content{
@@ -326,7 +328,7 @@ button:hover{
   display:flex;
   flex-direction:column;
   align-items:center;
-  gap:10px;
+  gap:3px;
   animation:moveUp 12s linear infinite;
 }
 .track img{
