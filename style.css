@@ -7,7 +7,11 @@ body{
   background:linear-gradient(to bottom,#ffffff,#ffe6f2);
   font-family:'Segoe UI',sans-serif;
 }
-
+.card {
+    min-height: 100vh;
+    height: auto;
+  overflow: auto;
+}
 .container{
   background:white;
   padding:40px;
@@ -16,6 +20,7 @@ body{
   text-align:center;
   width:80%;
   max-width:600px;
+  overflow: auto;
 }
 
 h1{
@@ -47,6 +52,7 @@ button:hover{
   position: relative;
   z-index: 2;
   text-align: center;
+  overflow: auto;
 }
 
 /* Floating hearts */
