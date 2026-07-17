@@ -257,6 +257,7 @@ button:hover{
 }
 .photo-side{
   z-index: 1;
+  padding:10px 0;
 }
 
 .content{
@@ -274,6 +275,8 @@ button:hover{
   display: flex;
   justify-content: center;
   align-items:stretch;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 /* window */
@@ -327,15 +330,13 @@ button:hover{
   animation:moveUp 12s linear infinite;
 }
 .track img{
-  width:88%;
-  height:170px;
-  object-fit:cover;
-  object-position:center;
-  display:block;
-  border-radius:15px;
-  box-shadow:0 0 10px rgba(255,105,180,.35);
-}
-
+    width:100%;
+    height:170px;
+    object-fit:cover;
+    border-radius:12px;
+    display:block;
+    margin:6px 0;
+  }
 /* ANIMATION */
 @keyframes moveUp{
   0%{ transform:translateY(0); }
